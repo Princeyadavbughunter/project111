@@ -51,11 +51,10 @@ export default function ImplantTypes() {
     <section className="bg-black text-white p-4 md:p-8 lg:p-12 pb-16">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl md:text-4xl font-bold text-center text-[#ca9c4f] mb-4">
-          When it comes to Dental Implants, choose <em>Veda Dentistry</em>
+          When it comes to Dental Implants, choose <em>Orovac Dental Care</em>
         </h2>
         <p className="text-center text-gray-300 mb-8 md:text-lg max-w-3xl mx-auto">
-          At Veda Dentistry, we specialize in providing all types of dental implants
-          to help you achieve a beautiful and functional smile using the latest procedures and technology.
+          At Orovac Dental Care Dental Clinic, we pride ourselves on bringing together the finest dental specialists under one roof.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

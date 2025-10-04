@@ -9,7 +9,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
     <section className="p-4 md:p-8 lg:p-12 max-w-7xl mx-auto">
       <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-center mb-6 leading-tight">
         Transform Your Smile With<br />
-        <span className="text-[#ca9c4f]">Advanced Dentistry!</span>
+        <span className="text-[#ca9c4f]">Orovac dental Care!</span>
       </h1>
 
       <div className="md:flex md:items-center md:gap-8 md:mb-12">
@@ -46,7 +46,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
           📞 Book Consultation
         </button>
         <a
-          href="tel:+919318481183"
+          href="tel:+919828079898"
           className="bg-black text-white py-4 px-8 rounded-lg font-bold text-lg text-center hover:bg-gray-800 transition-colors md:min-w-[240px]"
         >
           CALL NOW ☏
@@ -56,7 +56,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
       {/* Why Choose Us Section */}
       <div className="mb-8">
         <h3 className="text-xl md:text-3xl font-bold text-center text-gray-900 mb-6">
-          Why choose <span className="text-[#ca9c4f]">Veda Dentistry?</span>
+          Why choose <span className="text-[#ca9c4f]">Orovac dental Care?</span>
         </h3>
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6 mb-6">
@@ -82,27 +82,34 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
         <ul className="space-y-2 mb-4">
           <li className="flex items-start gap-2">
             <span className="text-[#ca9c4f]">✔</span>
-            <span className="text-sm md:text-base">15+ years experience with B.D.S. & M.D.S. from MAIDS Delhi, residencies at AIIMS Delhi, certified implantologist with 5+ years focused practice</span>
+            <span className="text-sm md:text-base">15+ Years of Excellence
+Serving patients from across India and 25+ countries</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-[#ca9c4f]">✔</span>
-            <span className="text-sm md:text-base">30% upfront payment, remaining balance in easy EMIs</span>
+            <span className="text-sm md:text-base">ISO 9001:2015 Certified
+International standard facility</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-[#ca9c4f]">✔</span>
-            <span className="text-sm md:text-base">Flexible EMI plans: 6, 12, or 18 months with transparent pricing</span>
+            <span className="text-sm md:text-base">98% Patient Satisfaction Rate
+Based on 10,000+ patient reviews</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-[#ca9c4f]">✔</span>
-            <span className="text-sm md:text-base">OPG (full-mouth X-rays) for accurate diagnosis</span>
+            <span className="text-sm md:text-base">Advanced Technology
+Home to Rajasthan's first 3D printing dental lab</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-[#ca9c4f]">✔</span>
-            <span className="text-sm md:text-base">3D Scanners for digital implant planning & prosthetic precision</span>
+            <span className="text-sm md:text-base">#1 in Rajasthan
+Ranked as the top dental clinic by Dental Council of India</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-[#ca9c4f]">✔</span>
-            <span className="text-sm md:text-base">Dental Lasers for minimally invasive treatment and faster healing</span>
+            <span className="text-sm md:text-base">Oral Surgeons
+Skilled in complex surgical procedures
+</span>
           </li>
           <li className="flex items-start gap-2">
             <span className="text-[#ca9c4f]">✔</span>

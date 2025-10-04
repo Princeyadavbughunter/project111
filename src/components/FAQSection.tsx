@@ -7,20 +7,20 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "How long does a dental implant procedure take?",
-      answer: "Typically, 2-3 visits over 3 months, depending on bone health. Some cases can be done faster with same-day crowns."
+      question: "How often should I visit the dentist for a check-up?",
+      answer: "It's generally recommended to visit your dentist for a check-up and cleaning every six months. However, some individuals may need more frequent visits depending on their oral health needs. Regular check-ups help prevent dental issues and maintain optimal oral health."
     },
     {
-      question: "Is the treatment painful?",
-      answer: "No. All treatments are performed under local anesthesia with added comfort measures. We also specialize in painless root canals."
+      question: "How long does a typical teeth whitening treatment take?",
+      answer: "Professional in-office teeth whitening typically takes about 60-90 minutes. At-home whitening treatments can take anywhere from a few days to a couple of weeks, depending on the product and desired results."
     },
     {
       question: "Are aligners better than braces?",
-      answer: "Yes, for most mild-to-moderate cases. Aligners are invisible, removable, and easier to manage."
+      answer: "Clear aligners are removable, transparent trays that gradually straighten teeth, while traditional braces use fixed metal brackets and wires. Aligners are less noticeable and can be removed for eating and cleaning, but braces may be more effective for complex orthodontic issues."
     },
     {
-      question: "How often should I visit the dentist?",
-      answer: "We recommend every 6 months for a check-up and cleaning—even if you have no symptoms."
+      question: "Is it normal for gums to bleed when brushing?",
+      answer: "Occasional light bleeding while brushing isn't uncommon, but frequent or heavy bleeding can indicate gum disease or other oral health issues. If you experience persistent gum bleeding, consult your dentist for an evaluation."
     },
     {
       question: "Do you offer treatments for senior citizens or kids?",

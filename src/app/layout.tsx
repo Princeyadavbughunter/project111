@@ -8,32 +8,32 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Veda Dentistry | Best Dentist in Anand Vihar, Delhi | Advanced Dental Implants",
-  description: "Dr. Shruti Goel - Certified Implantologist with 15+ years experience. Advanced dental implants, conscious sedation, 3D scanners in Anand Vihar, Delhi. Book appointment: +91 9318481183",
-  keywords: "dentist anand vihar, dental clinic delhi, dr shruti goel, dental implants, veda dentistry, conscious sedation, 3D scanners, best dentist delhi",
-  authors: [{ name: "Dr. Shruti Goel" }],
-  creator: "Veda Dentistry",
-  publisher: "Veda Dentistry",
+  title: "Orovac dental Care,| Best Dentist in Malviya Nagar, Jaipur | Advanced Dental Implants",
+  description: "Dr. Pooja Sharma - Certified Implantologist with 15+ years experience. Advanced dental implants, conscious sedation, 3D scanners in Malviya Nagar, Jaipur. Book appointment: +91 9828079898",
+  keywords: "dentist Malviya Nagar, dental clinic Jaipur, dr pooja sharma, dental implants, veda dentistry, conscious sedation, 3D scanners, best dentist delhi",
+  authors: [{ name: "Dr. Pooja Sharma" }],
+  creator: "Oravac Dentistry",
+  publisher: "Oravac Dentistry",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://vedadentistry.com'),
+  metadataBase: new URL('https://orovac.com/'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: "Veda Dentistry | Best Dentist in Anand Vihar, Delhi",
-    description: "Certified Implantologist Dr. Shruti Goel with 15+ years experience. Advanced dental care in Anand Vihar, Delhi.",
-    url: 'https://vedadentistry.com',
-    siteName: "Veda Dentistry",
+    title: "Orovac dental Care | Best Dentist in Malviya Nagar, Jaipur",
+    description: "Certified Implantologist Dr. Pooja Sharma with 15+ years experience. Advanced dental care in Malviya Nagar, Jaipur.",
+    url: 'https://orovac.com/',
+    siteName: "Orovac dental Care",
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: "Veda Dentistry",
+        alt: "Orovac Dentistry",
       },
     ],
     locale: 'en_IN',
@@ -41,8 +41,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Veda Dentistry",
-    description: "Advanced dental care with 15+ years experience in Anand Vihar, Delhi",
+    title: "Orovac Dentistry",
+    description: "Advanced dental care with 15+ years experience in Malviya Nagar, Jaipur",
     images: ['/og-image.jpg'],
   },
   robots: {

@@ -6,8 +6,8 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-6 md:mb-12">
           <Image 
-            src="/images/logo.png" 
-            alt="Veda Dentistry Logo" 
+            src="/images/orovac-logo-svg-1 (1).svg" 
+            alt="Orovac dental Care" 
             width={192}
             height={48}
             className="mx-auto mb-4 h-auto"
@@ -17,25 +17,26 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8 text-center md:text-left mb-8">
           <div>
             <h3 className="font-bold text-[#ca9c4f] mb-2 md:text-lg">Contact Us</h3>
-            <a href="tel:+919318481183" className="block text-[#ca9c4f] font-bold md:text-lg hover:text-black transition-colors">+91 93184 81183</a>
-            <p className="text-gray-700">contact@vedadentistry.com</p>
-            <p className="text-gray-700">www.vedadentistry.com</p>
+            <a href="tel:+919318481183" className="block text-[#ca9c4f] font-bold md:text-lg hover:text-black transition-colors">+91 9828079898</a>
+            <p className="text-gray-700">contactcare@orovac.in</p>
+            <p className="text-gray-700">www.orovac.com</p>
           </div>
 
           <div>
             <h3 className="font-bold text-[#ca9c4f] mb-2 md:text-lg">Open Hours</h3>
-            <p className="text-gray-700 md:text-lg">Mon-Sat: 9:30 AM – 5:00 PM</p>
+            <p className="text-gray-700 md:text-lg">Monday to Saturday: 10:30 AM to 7:00 PM
+Sunday: 11:00 AM to 3:00 PM</p>
           </div>
 
           <div>
             <h3 className="font-bold text-[#ca9c4f] mb-2 md:text-lg">Location</h3>
             <a
-              href="https://maps.app.goo.gl/ywYhdAK5q7eMXePJ6"
+              href="https://maps.app.goo.gl/4PZ4Fr8gUWvcYs1Y6"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 font-bold hover:text-[#ca9c4f] transition-colors cursor-pointer block"
             >
-              📍 12 AGCR Enclave, in front of Karkardooma Court Metro Station, Anand Vihar, Delhi, 110092
+              📍 7/320, opp. EHCC Hospital, near Jawahar Circle, Sector 7, Malviya Nagar, Jaipur, Rajasthan 302017
             </a>
             <p className="text-sm text-gray-500 mt-1">Click to open in Google Maps</p>
           </div>
@@ -51,7 +52,7 @@ export default function Footer() {
             allowFullScreen={true}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Veda Dentistry Location - AGCR Enclave, Anand Vihar"
+            title="Orovac Dental Care Location - Malviya Nagar, Jaipur, Rajasthan 302017"
           ></iframe>
         </div>
       </div>

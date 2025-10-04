@@ -19,15 +19,15 @@ export default function ThankYouPage() {
           <div className="flex flex-col md:flex-row items-center gap-8 mb-8">
             <div className="w-48 h-48 relative rounded-full overflow-hidden border-4 border-gray-200">
               <Image
-                src="/doc.png"
-                alt="Dr. Shruti Goel"
+                src="/docc.jpg"
+                alt="Dr. Pooja Sharma"
                 fill
                 className="object-cover"
               />
             </div>
             <div className="text-center md:text-left">
               <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-2">
-                Dr. Shruti Goel
+                Dr. Pooja Sharma
               </h2>
               <p className="text-[#ca9c4f] font-medium mb-4">
                 Certified Implantologist & Principal Dentist
@@ -67,7 +67,7 @@ export default function ThankYouPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="tel:+919318481183"
+              href="tel:+919828079898"
               className="inline-flex justify-center items-center px-6 py-3 bg-[#ca9c4f] text-white font-medium rounded-lg hover:bg-[#b8904a] transition-colors gap-2"
             >
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
@@ -76,7 +76,7 @@ export default function ThankYouPage() {
               Call Now
             </a>
             <a
-              href="https://wa.me/919318481183?text=Hi,%20I%20just%20submitted%20an%20appointment%20request.%20I%20would%20like%20to%20know%20more%20about%20the%20treatment."
+              href="https://wa.me/919828079898?text=Hi,%20I%20just%20submitted%20an%20appointment%20request.%20I%20would%20like%20to%20know%20more%20about%20the%20treatment."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex justify-center items-center px-6 py-3 bg-green-500 text-white font-medium rounded-lg hover:bg-green-600 transition-colors gap-2"

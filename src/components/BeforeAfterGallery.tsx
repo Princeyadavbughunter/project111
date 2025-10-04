@@ -9,23 +9,23 @@ interface BeforeAfterGalleryProps {
 export default function BeforeAfterGallery({ onBookAppointment }: BeforeAfterGalleryProps) {
   const cases = [
     {
-      before: '/img/before-after/Patient-Before-01.jpg',
-      after: '/img/before-after/Patient-After-01.jpg',
+      before: '/img/before-after/before1.jpg',
+      after: '/img/before-after/after1.jpg',
       alt: 'Patient Case 1'
     },
     {
-      before: '/img/before-after/Patient-02-Before.jpg',
-      after: '/img/before-after/Patient-02-After.jpg',
+      before: '/img/before-after/before2.jpg',
+      after: '/img/before-after/after2.jpg',
       alt: 'Patient Case 2'
     },
     {
-      before: '/img/before-after/Before-1-1.jpg',
-      after: '/img/before-after/After-1-1.jpg',
+      before: '/img/before-after/before3.jpg',
+      after: '/img/before-after/after3.jpg',
       alt: 'Patient Case 3'
     },
     {
-      before: '/img/before-after/Before-1.jpg',
-      after: '/img/before-after/After-1.jpg',
+      before: '/img/before-after/before4.jpg',
+      after: '/img/before-after/after4.jpg',
       alt: 'Patient Case 4'
     }
   ];
@@ -56,7 +56,7 @@ export default function BeforeAfterGallery({ onBookAppointment }: BeforeAfterGal
     <section className="p-4 md:p-8 lg:p-12 bg-orange-50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-8">
-          <div className="text-[#ca9c4f] text-sm md:text-base font-medium mb-2">Veda Dentistry and Cosmetology</div>
+          <div className="text-[#ca9c4f] text-sm md:text-base font-medium mb-2">Orovac Dental Care</div>
           <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">Patient Cases</h2>
         </div>
 
@@ -93,14 +93,14 @@ export default function BeforeAfterGallery({ onBookAppointment }: BeforeAfterGal
             Ready for Your <span className="text-[#ca9c4f]">Smile Transformation?</span>
           </h3>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            Join hundreds of satisfied patients who have transformed their smiles with Dr. Shruti&apos;s expertise. Book your consultation today and take the first step towards your dream smile.
+            Join hundreds of satisfied patients who have transformed their smiles with  Dr. Pooja Sharma&apos;s expertise. Book your consultation today and take the first step towards your dream smile.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button onClick={onBookAppointment} className="bg-[#ca9c4f] text-white px-8 py-3 rounded-lg font-bold text-lg hover:bg-[#b8904a] transition-colors">
               Book Consultation
             </button>
-            <a href="tel:+919318481183" className="bg-black text-white px-8 py-3 rounded-lg font-bold text-lg hover:bg-gray-800 transition-colors text-center">
-              Call Now: +91 93184 81183
+            <a href="tel:+919828079898" className="bg-black text-white px-8 py-3 rounded-lg font-bold text-lg hover:bg-gray-800 transition-colors text-center">
+              Call Now: +91 9828079898
             </a>
           </div>
           <p className="text-sm text-gray-500 mt-4">Professional consultation includes digital scan</p>

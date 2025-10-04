@@ -3,28 +3,28 @@ import Image from "next/image";
 export default function GoogleReviews() {
   const reviews = [
     {
-      name: "An Y",
-      initials: "AY",
-      date: "37 weeks ago",
-      review: "I had two implants and full mouth rehabilitation done by Dr Shruti recently. It was a really amazing experience as she led the entire process with such care and efficiency. I was explained everything and the total process was impeccable and seamless. The staff assisting her and the other junior docs with her are equally efficient. I strongly recommend her clinic and infact a few of my acquaintances have already got some dental procedures done at her clinic. They are equally gushing about it. Big thumbs up to Veda!"
+      name: "RAGE GOD",
+      initials: "RG",
+      date: "4 months ago",
+      review: "Really happy with my experience here. I got my braces done by Dr. Pooja and she did a great job. Everything was explained clearly, the process went smoothly, and I’m very satisfied with the results. Highly recommend!"
     },
     {
-      name: "Urmil Gupta",
-      initials: "UG",
-      date: "35 weeks ago",
-      review: "Dr Shruti is the best. I got very good treatment for full mouth rehabilitation, smile makeover and dental implants. Doctor is very sincere, polite, dedicated, calm. She treats like your own family member. I come from Gurgaon for the treatment. I am highly satisfied. I love coming here. Whole team is great."
+      name: "Nisha Sharma",
+      initials: "NS",
+      date: "6 months ago",
+      review: "I came from Gurgaon to Orovac Dental care in Malviya Nagar, Jaipur near the airport for a root canal and wisdom tooth extraction. Both procedures were completely painless! Dr. Pooja is truly one of Jaipur’s finest dentists. Highly recommend!"
     },
     {
-      name: "Devraj Gupta",
-      initials: "DG",
-      date: "19 Apr 2024",
-      review: "I got full mouth fixed implants for my teeth at Veda dentistry. I am fully satisfied and delighted with the treatment. The doctors and staff are very helpful. Clinic is very hygienic. I recommend them to everybody."
+      name: "Vijay kumari",
+      initials: "Vk",
+      date: "8 months ago",
+      review: "She is super talented doctor.. she is one among top notch dental surgeon who never compromise with quality and certainly we get highly sterilized and esthetics driven treatment.. clinic runs on international standards so is her foundation for clinic is laid upon. We see a rush of international patients over there who gets ultimately satisfied treatment and fine reviews."
     },
     {
-      name: "Dr.M.S. Goel",
-      initials: "MG",
-      date: "37 weeks ago",
-      review: "I have treatment of my teeth problem at Veda Dentistry. The tooth implant was done by Dr Shruti. I am fully satisfied with the treatment and very good behavior of staff and hygiene. I recommend to all"
+      name: "ATUL PANCHARIYA",
+      initials: "AP",
+      date: "6 months ago",
+      review: "Had a completely painless tooth extraction at Orovac Oral Care, Malviya Nagar. I didn’t even feel the needle prick! Such a comfortable and homely experience with Dr. Pooja. Thank you doctor."
     }
   ];
 

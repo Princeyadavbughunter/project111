@@ -15,7 +15,7 @@ export default function ClinicPhotos({ onBookAppointment }: ClinicPhotosProps) {
           <div key={i} className="bg-gray-200 rounded-lg h-48 sm:h-64 md:h-80 lg:h-96 flex items-center justify-center overflow-hidden relative shadow-md hover:shadow-xl transition-shadow">
             {i <= 4 ? (
               <Image 
-                src={`/images/clinic/${i}.png`} 
+                src={`/images/clinic/${i}.jpg`} 
                 alt={`Clinic Photo ${i}`} 
                 fill
                 className="object-cover" 
