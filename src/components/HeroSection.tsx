@@ -34,7 +34,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
           </h2>
           <button 
             onClick={onBookAppointment}
-            className="bg-[#ca9c4f] text-white px-8 py-4 rounded-xl text-xl font-bold shadow-lg hover:bg-[#b8904a] transition-colors pulse-element w-full md:w-auto"
+            className="bg-darkGreen text-white px-8 py-4 rounded-xl text-xl font-bold shadow-lg hover:bg-[#b8904a] transition-colors pulse-element w-full md:w-auto"
           >
             📞 Book Consultation
           </button>
@@ -42,12 +42,13 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
       </div>
 
       <div className="flex flex-col gap-3 mb-8 md:flex-row md:justify-center">
-        <button onClick={onBookAppointment} className="bg-[#ca9c4f] text-white py-4 px-8 rounded-lg font-bold text-lg hover:bg-[#b8904a] transition-colors md:min-w-[240px]">
+        <button onClick={onBookAppointment} className="bg-darkGreen text-white py-4 px-8 rounded-lg font-bold text-lg hover:text-black hover:bg-[#b8904a] transition-colors md:min-w-[240px]">
           📞 Book Consultation
         </button>
         <a
           href="tel:+919828079898"
-          className="bg-black text-white py-4 px-8 rounded-lg font-bold text-lg text-center hover:bg-gray-800 transition-colors md:min-w-[240px]"
+          className="bg-yellow text-black py-4 px-8 rounded-lg font-bold text-lg text-center hover:bg-darkGreen
+          hover:text-white transition-colors md:min-w-[240px]"
         >
           CALL NOW ☏
         </a>
@@ -56,17 +57,18 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
       {/* Why Choose Us Section */}
       <div className="mb-8">
         <h3 className="text-xl md:text-3xl font-bold text-center text-gray-900 mb-6">
-          Why choose <span className="text-[#ca9c4f]">Orovac dental Care?</span>
+          Why choose <span className="text-[rgb(55,81,82)]
+">Orovac dental Care?</span>
         </h3>
         
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6 mb-6">
           {[
-            { icon: "/images/heroicons/Experience.png", title: "15+ Years Experience", desc: "AIIMS & MAIDS Delhi" },
-            { icon: "/images/heroicons/painless.png", title: "Conscious Sedation", desc: "Happy Gas Available" },
+            { icon: "/images/heroicons/Experience.png", title: "15+ Years Experience", desc: "Serving patients from across India and 25+ countries" },
+           
             { icon: "/images/heroicons/premium.png", title: "Premium Implants", desc: "International Quality" },
             { icon: "/images/heroicons/team.png", title: "Specialist Team", desc: "Qualified Doctors" },
             { icon: "/images/heroicons/sterilization.png", title: "100% Sterilization", desc: "Highest Safety Standards" },
-            { icon: "/images/heroicons/tech.png", title: "Advanced Technology", desc: "Digital Dentistry and Lasers" }
+            { icon: "/images/heroicons/tech.png", title: "Advanced Technology", desc: "Home to Rajasthan's first 3D printing dental lab" }
           ].map((usp, index) => (
             <div key={index} className="text-center bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow md:p-6">
               <Image src={usp.icon} alt={usp.title} width={48} height={48} className="mx-auto mb-2" />
@@ -105,26 +107,18 @@ Home to Rajasthan's first 3D printing dental lab</span>
             <span className="text-sm md:text-base">#1 in Rajasthan
 Ranked as the top dental clinic by Dental Council of India</span>
           </li>
-          <li className="flex items-start gap-2">
-            <span className="text-[#ca9c4f]">✔</span>
-            <span className="text-sm md:text-base">Oral Surgeons
-Skilled in complex surgical procedures
-</span>
-          </li>
-          <li className="flex items-start gap-2">
-            <span className="text-[#ca9c4f]">✔</span>
-            <span className="text-sm md:text-base">Conscious sedation for a stress-free experience</span>
-          </li>
+          
+          
           <li className="flex items-start gap-2">
             <span className="text-[#ca9c4f]">✔</span>
             <span className="text-sm md:text-base">High patient satisfaction with 4.9/5 star rating</span>
           </li>
           <li className="flex items-start gap-2">
-            <span className="text-[#ca9c4f]">✔</span>
-            <span className="text-sm md:text-base"><strong>Peace of Mind Guarantee:</strong> 1-Year Warranty on your implant treatment for complete confidence</span>
+         
+           
           </li>
         </ul>
-        <button onClick={onBookAppointment} className="bg-[#ca9c4f] text-white py-3 px-6 rounded-lg font-bold w-full hover:bg-[#b8904a] transition-colors md:max-w-md md:mx-auto md:block">
+        <button onClick={onBookAppointment} className="bg-[rgb(55,81,82)] text-white py-3 px-6 rounded-lg font-bold w-full hover:bg-[rgb(55,81,82)] transition-colors md:max-w-md md:mx-auto md:block">
           Request a Call back ➤
         </button>
         <small className="block text-center mt-2 text-gray-600 md:text-base">

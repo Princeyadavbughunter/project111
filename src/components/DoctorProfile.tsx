@@ -6,8 +6,8 @@ interface DoctorProfileProps {
 
 export default function DoctorProfile({ onBookAppointment }: DoctorProfileProps) {
   return (
-    <section className="p-4 md:p-8 lg:p-12">
-      <h2 className="text-xl md:text-3xl font-bold text-center mb-6">Meet Our Principal Dentist</h2>
+    <section className=" bg-darkGreen p-4 md:p-8 lg:p-12">
+      <h2 className="text-white md:text-3xl font-bold text-center mb-6">Meet Our Principal Dentist</h2>
 
       <div className="bg-white rounded-lg p-4 md:p-8 shadow-sm max-w-6xl mx-auto">
         <div className="md:flex md:gap-8 md:items-start mb-8">
@@ -37,52 +37,39 @@ Full Mouth Rehabilitation,
 Botox and Facial Aesthetics.
             </p>
 
-            <p className="md:text-lg">
-              Her empathetic and transparent approach, combined with advanced technology and conscious sedation options, creates a comfortable and transformative dental experience for every patient.
-            </p>
+            
 
             <div className="md:grid md:grid-cols-2 md:gap-8 mt-6">
               <div>
-                <h3 className="font-bold text-[#ca9c4f] mb-3 md:text-lg">Professional Achievements</h3>
-                <ul className="space-y-2">
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#ca9c4f]">🏅</span>
-                    <span className="md:text-lg">Digital Smile Design Expert</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#ca9c4f]">🏅</span>
-                    <span className="md:text-lg">Advanced Implantology Specialist</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#ca9c4f]">🏅</span>
-                    <span className="md:text-lg">Certified Orthodontist for Adults and Children</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#ca9c4f]">🏅</span>
-                    <span className="md:text-lg">Laser Dentistry Certification</span>
-                  </li>
-                </ul>
+                <h3 className="font-bold text-[#ca9c4f] mb-3 md:text-lg">Vision and Philosophy</h3>
+                <ul className="list-disc list-inside md:text-lg space-y-1">
+  <li>Make advanced dentistry accessible to every Indian household</li>
+  <li>Provide affordable treatment options without compromising quality</li>
+  <li>Create stress-free dental experiences</li>
+  <li>Bridge the gap between international dental standards and local accessibility</li>
+
+</ul>
               </div>
 
               <div>
-                <h3 className="font-bold text-[#ca9c4f] mt-6 mb-3 md:mt-0 md:text-lg">Expertise & Innovation</h3>
+                <h3 className="font-bold text-[#ca9c4f] mt-6 mb-3 md:mt-0 md:text-lg">Expertise & Recognition</h3>
                 <p className="md:text-lg">
-                  Honored by Mrs. Ruth Margaret Cadbury (MP British Parliament). Recognized by Miss Universe Lara Dutta. Advanced certifications in:
-
-Implantology,
-Cosmetic Dentistry,
-Orthodontics,
-Digital Smile Design,
-Laser Dentistry,
-Full Mouth Rehabilitation,
-Botox and Facial Aesthetics.
-                </p>
+                  Honored by Mrs. Ruth Margaret Cadbury (MP British Parliament). Recognized by Miss Universe Lara Dutta. Advanced certifications in: </p>
+<ul className="list-disc list-inside md:text-lg space-y-1">
+  <li>Implantology</li>
+  <li>Cosmetic Dentistry</li>
+  <li>Orthodontics</li>
+  <li>Digital Smile Design</li>
+  <li>Laser Dentistry</li>
+  <li>Full Mouth Rehabilitation</li>
+  <li>Botox and Facial Aesthetics</li>
+</ul>
               </div>
             </div>
           </div>
         </div>
 
-        <button onClick={onBookAppointment} className="bg-[#ca9c4f] text-white py-3 px-6 rounded-lg font-bold w-full md:max-w-md md:mx-auto md:block">
+        <button onClick={onBookAppointment} className="bg-darkGreen text-white py-3 px-6 rounded-lg font-bold w-full md:max-w-md md:mx-auto md:block">
           BOOK APPOINTMENT WITH DR. Pooja Sharma
         </button>
       </div>

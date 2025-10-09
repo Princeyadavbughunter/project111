@@ -8,8 +8,8 @@ interface ClinicPhotosProps {
 
 export default function ClinicPhotos({ onBookAppointment }: ClinicPhotosProps) {
   return (
-    <section className="bg-blue-50 p-4 md:p-8 lg:p-12">
-      <h2 className="text-xl md:text-3xl font-bold text-center mb-6">Our State-of-the-Art Clinic</h2>
+    <section className="bg-lightCream p-4 md:p-8 lg:p-12">
+      <h2 className="text-black md:text-3xl font-bold text-center mb-6">Our State-of-the-Art Clinic</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mb-8">
         {[1, 2, 3, 4].map((i) => (
           <div key={i} className="bg-gray-200 rounded-lg h-48 sm:h-64 md:h-80 lg:h-96 flex items-center justify-center overflow-hidden relative shadow-md hover:shadow-xl transition-shadow">
@@ -28,7 +28,9 @@ export default function ClinicPhotos({ onBookAppointment }: ClinicPhotosProps) {
           </div>
         ))}
       </div>
-      <button onClick={onBookAppointment} className="bg-yellow-400 text-blue-900 py-3 px-6 rounded-lg font-bold w-full md:max-w-md mx-auto block hover:bg-yellow-300 transition-colors">
+      <button onClick={onBookAppointment} className="bg-darkGreen text-white py-3 px-6 rounded-lg font-bold w-full md:max-w-md mx-auto block 
+      hover:text-black
+      hover:bg-yellow-300 transition-colors">
         BOOK APPOINTMENT
       </button>
     </section>

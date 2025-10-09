@@ -26,10 +26,11 @@ export default function Header({ onBookAppointment }: HeaderProps) {
           </a>
         </div>
         <div className="flex flex-col sm:flex-row gap-3 justify-center md:gap-4">
-          <button onClick={onBookAppointment} className="bg-[#ca9c4f] text-white px-6 py-3 rounded-lg font-bold hover:bg-[#b8904a] transition-colors">
+          <button onClick={onBookAppointment} className="bg-[rgb(55,81,82)] text-white px-6 py-3 rounded-lg font-bold hover:bg-[rgb(55,81,82)] transition-colors">
             BOOK APPOINTMENT
           </button>
-          <a href="tel:+919828079898" className="bg-black text-white px-6 py-3 rounded-lg font-bold hover:bg-gray-800 transition-colors text-center">
+          <a href="tel:+919828079898" className="bg-[rgb(205,159,82)]
+ text-black px-6 py-3 rounded-lg font-bold hover:bg-[rgb(205,159,82)] transition-colors text-center">
             CALL NOW ☏
           </a>
         </div>

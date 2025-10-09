@@ -9,8 +9,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+         darkGreen: "rgb(55, 81, 82)",
+        lightCream: "rgb(255, 247, 229)",
+        yellow:"rgb(205, 159, 82)",
       },
       fontFamily: {
         sans: ["var(--font-inter)", "Inter", "system-ui", "sans-serif"],
