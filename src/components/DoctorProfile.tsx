@@ -33,8 +33,7 @@ Cosmetic Dentistry,
 Orthodontics,
 Digital Smile Design,
 Laser Dentistry,
-Full Mouth Rehabilitation,
-Botox and Facial Aesthetics.
+Full Mouth Rehabilitation
             </p>
 
             
@@ -62,7 +61,7 @@ Botox and Facial Aesthetics.
   <li>Digital Smile Design</li>
   <li>Laser Dentistry</li>
   <li>Full Mouth Rehabilitation</li>
-  <li>Botox and Facial Aesthetics</li>
+  
 </ul>
               </div>
             </div>

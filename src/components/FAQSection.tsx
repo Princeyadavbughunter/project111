@@ -19,8 +19,8 @@ export default function FAQSection() {
       answer: "Clear aligners are removable, transparent trays that gradually straighten teeth, while traditional braces use fixed metal brackets and wires. Aligners are less noticeable and can be removed for eating and cleaning, but braces may be more effective for complex orthodontic issues."
     },
     {
-      question: "Is it normal for gums to bleed when brushing?",
-      answer: "Occasional light bleeding while brushing isn't uncommon, but frequent or heavy bleeding can indicate gum disease or other oral health issues. If you experience persistent gum bleeding, consult your dentist for an evaluation."
+      question: "How long do dental crowns typically last?",
+      answer: "With proper care, dental crowns can last between 10 to 15 years on average. However, the lifespan of a crown can vary depending on factors like oral hygiene, bite forces, and the material used in the crown."
     },
     {
       question: "Do you offer treatments for senior citizens or kids?",
