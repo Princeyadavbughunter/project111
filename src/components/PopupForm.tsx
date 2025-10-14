@@ -111,7 +111,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
             <select name="preferredTime" required className="w-full p-2 md:p-3 border border-gray-300 rounded-lg">
               <option value="">Select Time Slot</option>
               <option value="morning">Morning (10:00 AM - 1:00 PM)</option>
-              <option value="evening">Evening (5:00 PM - 9:00 PM)</option>
+              <option value="evening">Evening (2:00 PM - 7:00 PM)</option>
             </select>
           </div>
           <button type="submit" className="w-full bg-[#ca9c4f] text-white py-3 md:py-4 rounded-lg font-bold text-lg hover:bg-[#b8904a] transition-colors">

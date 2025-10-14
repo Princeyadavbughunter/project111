@@ -7,24 +7,24 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "How often should I visit the dentist for a check-up?",
-      answer: "It's generally recommended to visit your dentist for a check-up and cleaning every six months. However, some individuals may need more frequent visits depending on their oral health needs. Regular check-ups help prevent dental issues and maintain optimal oral health."
+      question: "What are dental implants?",
+      answer: "Dental implants are titanium posts surgically placed into the jawbone to replace missing tooth roots. They provide a strong foundation for fixed or removable replacement teeth that look, feel, and function like natural teeth."
     },
     {
-      question: "How long does a typical teeth whitening treatment take?",
-      answer: "Professional in-office teeth whitening typically takes about 60-90 minutes. At-home whitening treatments can take anywhere from a few days to a couple of weeks, depending on the product and desired results."
+      question: "How long do dental implants last?",
+      answer: "With proper care and regular dental checkups, dental implants can last 15 years or more, and in many cases, they last a lifetime. Good oral hygiene and healthy gums are key to long-term success."
     },
     {
-      question: "Are aligners better than braces?",
-      answer: "Clear aligners are removable, transparent trays that gradually straighten teeth, while traditional braces use fixed metal brackets and wires. Aligners are less noticeable and can be removed for eating and cleaning, but braces may be more effective for complex orthodontic issues."
+      question: "Are dental implants painful?",
+      answer: "Most patients experience minimal discomfort during and after the procedure. Local anesthesia or sedation is used to ensure comfort, and mild soreness afterward can be managed with prescribed pain medication."
     },
     {
-      question: "How long do dental crowns typically last?",
-      answer: "With proper care, dental crowns can last between 10 to 15 years on average. However, the lifespan of a crown can vary depending on factors like oral hygiene, bite forces, and the material used in the crown."
+      question: "Who is a good candidate for dental implants?",
+      answer: "Ideal candidates are individuals with healthy gums, sufficient bone density, and good overall health. Even if you’ve experienced bone loss, advanced options like bone grafting can make implants possible."
     },
     {
-      question: "Do you offer treatments for senior citizens or kids?",
-      answer: "Yes, we offer complete family dentistry—from kids' cavities to full-mouth rehab for seniors."
+      question: "How do I care for dental implants?",
+      answer: "Dental implants require the same care as natural teeth — brushing twice daily, flossing regularly, and routine dental checkups. Avoid smoking and maintain good oral hygiene to extend their lifespan."
     }
   ];
 

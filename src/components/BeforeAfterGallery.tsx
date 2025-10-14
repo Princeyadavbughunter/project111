@@ -15,7 +15,7 @@ export default function BeforeAfterGallery({ onBookAppointment }: BeforeAfterGal
       alt: 'Patient Case 2'
     },
     {
-      image: '/img/before-after/after3.jpg',
+      image: '/img/before-after/after8.jpg',
       alt: 'Patient Case 3'
     },
     {
