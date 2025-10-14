@@ -45,7 +45,7 @@ Sunday: 11:00 AM to 3:00 PM</p>
         {/* Google Maps Embed */}
         <div className="mt-6 bg-gray-200 rounded-lg overflow-hidden h-[300px] md:h-[400px]">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.7842439264383!2d77.3127636!3d28.634932899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb06f3ba5b8f%3A0x8a86c9c6a5c5c5c5!2s12%20AGCR%20Enclave%2C%20Anand%20Vihar%2C%20Delhi%20110092!5e0!3m2!1sen!2sin!4v1748115653813!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5130.654238413706!2d75.80665478146416!3d26.842771246178494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db7bb1b45f693%3A0x18d5f0a177a11f8f!2sOrovac%20Dental%20Care%20%E2%80%93%20Center%20for%20Invisalign%2C%20Braces%20%26%20Implants%20%7C%20Best%20Orthodontist%20%26%20Invisible%20aligners%20Specialist!5e1!3m2!1sen!2sin!4v1760422911824!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{ border: 0 }}
