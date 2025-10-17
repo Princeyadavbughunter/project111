@@ -15,7 +15,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
       <div className="md:flex md:items-center md:gap-8 md:mb-12">
         <div className="relative rounded-lg h-48 md:h-[400px] mb-6 md:mb-0 md:flex-1 overflow-hidden shadow-lg">
           <video
-            src="/videos/Veda-video.mp4"
+            src="/videos/video_20251008_133807.mp4"
             controls
             autoPlay
             className="w-full h-full object-cover rounded-lg"
