@@ -26,7 +26,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
       problem: formData.get('dentalConcern') as string,
     };
 
-    const scriptURL = "https://script.google.com/macros/s/AKfycbzbmK3mNRPCOD-o0NaLCMMO2ieYm7g66Ul4wSFElOO1Kam2VIy_bQY67QEs5NvvjD_TTQ/exec";
+    const scriptURL = "https://script.google.com/macros/s/AKfycbxyuybiRhZIqMqDbRaHmLRSkjjiRBsLAoyPmOViJH-fCwuV-vKLip5oih9j__5m45BwmQ/exec";
 
     try {
       const response = await fetch(scriptURL, {
