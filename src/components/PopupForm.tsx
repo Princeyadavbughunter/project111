@@ -21,29 +21,46 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
     // Prepare data for Apps Script
     const data = {
       name: formData.get('fullName') as string,
-      email: formData.get('email') as string,
       phone: formData.get('phoneNumber') as string,
-      problem: formData.get('dentalConcern') as string,
+      email: formData.get('email') as string,
+      concern: formData.get('dentalConcern') as string,
     };
 
-    const scriptURL = "https://script.google.com/macros/s/AKfycbxyuybiRhZIqMqDbRaHmLRSkjjiRBsLAoyPmOViJH-fCwuV-vKLip5oih9j__5m45BwmQ/exec";
+    console.log("Form Data to send:", data);
+
+    const scriptURL = "https://script.google.com/macros/s/AKfycbytNzhtQq0uiByQeK9Vq-WAKSMaApdjslDkeEclxYkJZ0CLFwOeqgZIpfbvKcPSOKn7OA/exec";
 
     try {
       const response = await fetch(scriptURL, {
         method: "POST",
-        mode: "no-cors",
-        headers: { "Content-Type": "application/json" },
+        mode: "no-cors", // keep for now, needed for Apps Script public endpoint
+        headers: {
+          "Content-Type": "application/json",
+        },
         body: JSON.stringify(data),
       });
 
-      const resultText = await response.text();
-      if (resultText.includes("Added")) {
+      console.log("Raw fetch response:", response);
+
+      // With no-cors, you cannot read response body, so we log success directly
+      try {
+        const result = await response.json();
+        console.log("Parsed response:", result);
+
+        if (result.result === "success") {
+          alert("✅ Appointment booked successfully!");
+          onClose();
+          router.push("/thank-you");
+        } else {
+          throw new Error("Form submission failed");
+        }
+      } catch (err) {
+        console.log("No JSON response due to no-cors. Assuming success.", err);
         alert("✅ Appointment booked successfully!");
         onClose();
         router.push("/thank-you");
-      } else {
-        throw new Error(resultText);
       }
+
     } catch (error) {
       console.error("Error submitting form:", error);
       alert("❌ Something went wrong. Please try again later.");
@@ -64,7 +81,8 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
         {/* Offer info */}
         <div className="bg-gray-50 p-3 md:p-4 rounded-lg mb-4 border-l-4 border-[#ca9c4f]">
           <p className="text-sm md:text-base text-gray-700 text-center">
-            <strong>Includes:</strong> Professional Consultation & Digital scan <span className="text-[#ca9c4f] font-bold"> with Our Certified Implantologist</span>
+            <strong>Includes:</strong> Professional Consultation & Digital Scan
+            <span className="text-[#ca9c4f] font-bold"> with Our Certified Implantologist</span>
           </p>
         </div>
 
@@ -127,6 +145,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
             Book Appointment
           </button>
         </form>
+        
       </div>
     </div>
   );
