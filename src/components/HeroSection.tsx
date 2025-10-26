@@ -31,8 +31,7 @@ export default function HeroSection({ onBookAppointment }: HeroSectionProps) {
         {/* Special Offer Section */}
         <div className="bg-gradient-to-r from-black to-gray-800 text-white p-6 rounded-xl text-center mb-6 md:mb-0 md:flex-1">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
-            Dental Implants starting
-            <span className="text-[#ca9c4f] block text-3xl md:text-4xl lg:text-5xl">@₹35,000</span>
+            Dental Implants Made Affordable for Everyone
             <h3 className="text-lg md:text-xl">Easy EMI options: 6, 12, or 18 months</h3>
           </h2>
           <button 
