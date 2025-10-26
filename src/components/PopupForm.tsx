@@ -28,7 +28,7 @@ export default function PopupForm({ isOpen, onClose, minutes, seconds }: PopupFo
 
     console.log("Form Data to send:", data);
 
-    const scriptURL = "https://script.google.com/macros/s/AKfycbytNzhtQq0uiByQeK9Vq-WAKSMaApdjslDkeEclxYkJZ0CLFwOeqgZIpfbvKcPSOKn7OA/exec";
+    const scriptURL = "https://script.google.com/macros/s/AKfycbxkf3UJpRmHFYdhBlNP1zReLEqnxaT4WuoTiSZiLYe1BuJFxs1aoVWKIolT6bA8TvDjCQ/exec";
 
     try {
       const response = await fetch(scriptURL, {
